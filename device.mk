@@ -207,6 +207,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     device/oneplus/oneplus7pro/seccomp/codec2.software.ext.policy:$(TARGET_COPY_OUT)/etc/seccomp_policy/codec2.software.ext.policy
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel2019
+
 # Temporary handling
 #
 # Include config.fs get only if legacy device/qcom/<target>/android_filesystem_config.h
